@@ -28,7 +28,7 @@ function Login({ onLogin }) {
       <div className="login-container">
 
         <img
-          src="/pinterest_icon.png"
+          src={`${import.meta.env.BASE_URL}pinterest_icon.png`}
           className="login-logo"
           alt="Pinterest"
         />
@@ -117,7 +117,7 @@ function Login({ onLogin }) {
         <button className="google-btn">
 
           <img
-            src="/googleimage.png"
+            src={`${import.meta.env.BASE_URL}googleimage.png`}
             alt="Google"
           />
 

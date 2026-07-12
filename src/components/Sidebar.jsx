@@ -38,7 +38,7 @@ function Sidebar({ activePage, setActivePage }) {
     <aside className="sidebar">
 
       <img
-        src="/pinterest_icon.png"
+        src={`${import.meta.env.BASE_URL}pinterest_icon.png`}
         className="logo"
         alt="Pinterest"
       />
